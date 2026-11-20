@@ -27,7 +27,7 @@ header[data-testid="stHeader"] {{ background: transparent; height: 0; }}
 .num {{ font-variant-numeric: tabular-nums; }}
 
 /* Bordered containers are the sticker panels: square-ish corners, a firm outline */
-[data-testid="stVerticalBlockBorderWrapper"] {{ border: 1.5px solid var(--ink) !important; border-radius: 4px !important;
+[data-testid="stVerticalBlock"][data-test-scroll-behavior] {{ border: 1.5px solid var(--ink) !important; border-radius: 4px !important;
     background: var(--panel); box-shadow: 3px 3px 0 rgba(22, 24, 29, .10); }}
 
 /* Top bar: logo block and page tabs */
