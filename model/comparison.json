@@ -5,8 +5,8 @@
   "mae": 1806.8,
   "mdape": 0.3809,
   "r2": 0.6676,
-  "fit_s": 2.1,
-  "predict_ms": 9.3
+  "fit_s": 1.2,
+  "predict_ms": 4.2
  },
  {
   "model": "Decision tree",
@@ -14,8 +14,8 @@
   "mae": 1119.7,
   "mdape": 0.2239,
   "r2": 0.8388,
-  "fit_s": 1.6,
-  "predict_ms": 7.2
+  "fit_s": 0.8,
+  "predict_ms": 3.5
  },
  {
   "model": "Random forest",
@@ -23,8 +23,8 @@
   "mae": 975.0,
   "mdape": 0.1973,
   "r2": 0.8786,
-  "fit_s": 18.0,
-  "predict_ms": 58.1
+  "fit_s": 9.4,
+  "predict_ms": 30.4
  },
  {
   "model": "LightGBM",
@@ -32,8 +32,8 @@
   "mae": 929.4,
   "mdape": 0.1934,
   "r2": 0.8893,
-  "fit_s": 16.8,
-  "predict_ms": 7.5
+  "fit_s": 7.4,
+  "predict_ms": 15.3
  },
  {
   "model": "XGBoost",
@@ -41,7 +41,7 @@
   "mae": 932.2,
   "mdape": 0.1915,
   "r2": 0.8861,
-  "fit_s": 39.9,
+  "fit_s": 18.6,
   "predict_ms": 14.2
  },
  {
@@ -50,7 +50,7 @@
   "mae": 957.5,
   "mdape": 0.199,
   "r2": 0.8849,
-  "fit_s": 344.3,
-  "predict_ms": 1.8
+  "fit_s": 158.0,
+  "predict_ms": 1.4
  }
 ]

@@ -27,8 +27,9 @@ from fairtag.schema import CATEGORICAL, FEATURES
 ROOT = Path(__file__).resolve().parent
 SEED = 42
 
-# Chosen by 5-fold cross-validation on the training split (random search in the notebook). 512 trees is the median
-# best round count with early stopping across the folds; the final model uses it as a fixed number.
+# One of the 24 settings in the notebook's random search (5-fold cross-validation on the training split). The best
+# setting scored only about 4 euros lower but is four times the size (511 leaves, 1,079 trees, 48 MB), so the app ships
+# this lighter one (11 MB). 512 trees is its median best round count with early stopping; used as a fixed number.
 PARAMS = dict(objective="regression", learning_rate=0.08, num_leaves=255, min_child_samples=20, subsample=1.0,
               subsample_freq=1, colsample_bytree=0.8, reg_lambda=0.0, cat_smooth=30.0, min_data_per_group=20,
               max_cat_threshold=64, n_estimators=512, random_state=0, verbose=-1)

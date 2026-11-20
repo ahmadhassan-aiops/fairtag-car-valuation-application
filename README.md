@@ -32,17 +32,20 @@ registration year). Details are in the notebook.
 
 | Model (5-fold cross-validation, default settings) | RMSE | R² | Fit time per fold | Predict one car |
 |---|---|---|---|---|
-| Linear regression (sanity check) | €2,631 | 0.668 | 2 s | 9 ms |
-| Decision tree | €1,832 | 0.839 | 2 s | 7 ms |
-| Random forest | €1,590 | 0.879 | 18 s | 58 ms |
-| **LightGBM** | **€1,518** | **0.889** | **17 s** | **7 ms** |
-| XGBoost | €1,540 | 0.886 | 40 s | 14 ms |
-| CatBoost | €1,548 | 0.885 | 344 s | 2 ms |
+| Linear regression (sanity check) | €2,631 | 0.668 | 1 s | 4 ms |
+| Decision tree | €1,832 | 0.839 | 1 s | 4 ms |
+| Random forest | €1,590 | 0.879 | 9 s | 30 ms |
+| **LightGBM** | **€1,518** | **0.889** | **7 s** | **15 ms** |
+| XGBoost | €1,540 | 0.886 | 19 s | 14 ms |
+| CatBoost | €1,548 | 0.885 | 158 s | 1 ms |
 
-LightGBM was then tuned by random search with cross-validation. The deployed model (512 trees, 255 leaves, learning
-rate 0.08) uses brand, model and the other categories natively, leaves missing power as missing, and predicts the raw
-price in euros (log price was tested and scored worse on RMSE). The range comes from cross-validated errors: in 10
-bands of predicted price, the 10th to 90th percentile of real/predicted price.
+LightGBM was then tuned by a random search over 24 settings with cross-validation. All 24 scored between €1,512 and
+€1,525, so the settings matter far less than the data. The best (511 leaves, 1,079 trees) is a 48 MB file; the app
+ships a lighter setting from the same search (255 leaves, 512 trees, learning rate 0.08; 11 MB) that scores €1,516 in
+cross-validation and €1,502 on the held-out ads, against €1,512 and €1,500 for the best. It uses brand, model and the
+other categories natively, leaves missing power as missing, and predicts the raw price in euros (log price scored worse
+on every measure). The range comes from cross-validated errors: in 10 bands of predicted price, the 10th to 90th
+percentile of real/predicted price.
 
 ## Why this stack
 

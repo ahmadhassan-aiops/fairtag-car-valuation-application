@@ -53,10 +53,10 @@ def render() -> None:
                       "held-out ads were used once, for the final report"),
             ("Model choice", "Linear regression (sanity check), decision tree, random forest, LightGBM, XGBoost and "
                              "CatBoost compared with 5-fold cross-validation on the training ads"),
-            ("Model", f"LightGBM regression on the raw price: {p['n_estimators']} trees, learning rate {p['learning_rate']}, "
-                      f"{p['num_leaves']} leaves, 80% of features per tree. Brand, model and the other categories are used "
+            ("Model", f"LightGBM regression on the raw price: {p['n_estimators']:,} trees, learning rate {p['learning_rate']}, "
+                      f"up to {p['num_leaves']} leaves a tree, {p['colsample_bytree']:.0%} of features and {p['subsample']:.0%} of ads per tree. Brand, model and the other categories are used "
                       "directly as categories (no one-hot encoding)"),
-            ("Tuning", "Random search over tree size, learning rate, sampling and regularisation, scored by cross-validation; "
+            ("Tuning", "Random search over 24 settings of tree size, learning rate, sampling and regularisation, scored by cross-validation; "
                        "the tree count is the median best round with early stopping across the folds"),
             ("Price range", "Ratio of real to predicted price in cross-validation, measured in 10 bands of predicted price; "
                             "the range is the 10th to 90th percentile of that ratio"),
