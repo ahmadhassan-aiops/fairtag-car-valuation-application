@@ -1,0 +1,56 @@
+[
+ {
+  "model": "Linear regression (one-hot)",
+  "rmse": 2630.6,
+  "mae": 1806.8,
+  "mdape": 0.3809,
+  "r2": 0.6676,
+  "fit_s": 2.1,
+  "predict_ms": 9.3
+ },
+ {
+  "model": "Decision tree",
+  "rmse": 1831.6,
+  "mae": 1119.7,
+  "mdape": 0.2239,
+  "r2": 0.8388,
+  "fit_s": 1.6,
+  "predict_ms": 7.2
+ },
+ {
+  "model": "Random forest",
+  "rmse": 1589.7,
+  "mae": 975.0,
+  "mdape": 0.1973,
+  "r2": 0.8786,
+  "fit_s": 18.0,
+  "predict_ms": 58.1
+ },
+ {
+  "model": "LightGBM",
+  "rmse": 1518.3,
+  "mae": 929.4,
+  "mdape": 0.1934,
+  "r2": 0.8893,
+  "fit_s": 16.8,
+  "predict_ms": 7.5
+ },
+ {
+  "model": "XGBoost",
+  "rmse": 1540.0,
+  "mae": 932.2,
+  "mdape": 0.1915,
+  "r2": 0.8861,
+  "fit_s": 39.9,
+  "predict_ms": 14.2
+ },
+ {
+  "model": "CatBoost",
+  "rmse": 1547.7,
+  "mae": 957.5,
+  "mdape": 0.199,
+  "r2": 0.8849,
+  "fit_s": 344.3,
+  "predict_ms": 1.8
+ }
+]

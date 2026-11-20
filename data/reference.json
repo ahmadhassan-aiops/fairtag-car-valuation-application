@@ -1,0 +1,3119 @@
+{
+ "brands": {
+  "volkswagen": [
+   "golf",
+   "polo",
+   "passat",
+   "transporter",
+   "touran",
+   "unknown",
+   "lupo",
+   "caddy",
+   "sharan",
+   "bora",
+   "beetle",
+   "fox",
+   "other",
+   "tiguan",
+   "scirocco",
+   "touareg",
+   "eos",
+   "kaefer",
+   "jetta",
+   "up",
+   "phaeton",
+   "cc",
+   "amarok"
+  ],
+  "opel": [
+   "corsa",
+   "astra",
+   "vectra",
+   "zafira",
+   "unknown",
+   "omega",
+   "other",
+   "meriva",
+   "tigra",
+   "insignia",
+   "signum",
+   "agila",
+   "combo",
+   "kadett",
+   "vivaro",
+   "calibra",
+   "antara"
+  ],
+  "bmw": [
+   "3er",
+   "5er",
+   "1er",
+   "x_reihe",
+   "unknown",
+   "7er",
+   "z_reihe",
+   "other",
+   "6er",
+   "m_reihe",
+   "i3"
+  ],
+  "mercedes_benz": [
+   "c_klasse",
+   "e_klasse",
+   "a_klasse",
+   "other",
+   "clk",
+   "slk",
+   "m_klasse",
+   "unknown",
+   "vito",
+   "s_klasse",
+   "b_klasse",
+   "sprinter",
+   "sl",
+   "viano",
+   "cl",
+   "v_klasse",
+   "g_klasse",
+   "glk",
+   "gl"
+  ],
+  "audi": [
+   "a4",
+   "a3",
+   "a6",
+   "80",
+   "tt",
+   "other",
+   "unknown",
+   "a1",
+   "a5",
+   "a8",
+   "100",
+   "a2",
+   "q7",
+   "q5",
+   "90",
+   "200",
+   "q3"
+  ],
+  "ford": [
+   "focus",
+   "fiesta",
+   "mondeo",
+   "ka",
+   "other",
+   "galaxy",
+   "escort",
+   "unknown",
+   "transit",
+   "c_max",
+   "s_max",
+   "kuga",
+   "fusion",
+   "mustang",
+   "b_max"
+  ],
+  "renault": [
+   "twingo",
+   "clio",
+   "megane",
+   "scenic",
+   "laguna",
+   "other",
+   "kangoo",
+   "unknown",
+   "espace",
+   "modus",
+   "r19"
+  ],
+  "peugeot": [
+   "2_reihe",
+   "3_reihe",
+   "1_reihe",
+   "other",
+   "unknown",
+   "4_reihe",
+   "5_reihe"
+  ],
+  "fiat": [
+   "punto",
+   "other",
+   "500",
+   "panda",
+   "seicento",
+   "stilo",
+   "ducato",
+   "unknown",
+   "doblo",
+   "bravo",
+   "croma"
+  ],
+  "seat": [
+   "ibiza",
+   "leon",
+   "arosa",
+   "cordoba",
+   "altea",
+   "alhambra",
+   "toledo",
+   "unknown",
+   "exeo",
+   "other",
+   "mii"
+  ],
+  "skoda": [
+   "octavia",
+   "fabia",
+   "superb",
+   "roomster",
+   "other",
+   "yeti",
+   "unknown",
+   "citigo"
+  ],
+  "mazda": [
+   "6_reihe",
+   "3_reihe",
+   "mx_reihe",
+   "other",
+   "5_reihe",
+   "unknown",
+   "rx_reihe",
+   "1_reihe",
+   "cx_reihe"
+  ],
+  "smart": [
+   "fortwo",
+   "forfour",
+   "unknown",
+   "roadster",
+   "other"
+  ],
+  "citroen": [
+   "other",
+   "berlingo",
+   "c3",
+   "c5",
+   "c4",
+   "c1",
+   "c2",
+   "unknown"
+  ],
+  "nissan": [
+   "micra",
+   "other",
+   "primera",
+   "qashqai",
+   "almera",
+   "x_trail",
+   "unknown",
+   "note",
+   "juke",
+   "navara"
+  ],
+  "toyota": [
+   "yaris",
+   "other",
+   "corolla",
+   "avensis",
+   "aygo",
+   "rav",
+   "verso",
+   "auris",
+   "unknown"
+  ],
+  "hyundai": [
+   "i_reihe",
+   "other",
+   "getz",
+   "santa",
+   "tucson",
+   "unknown"
+  ],
+  "mini": [
+   "cooper",
+   "one",
+   "clubman",
+   "other",
+   "unknown"
+  ],
+  "volvo": [
+   "v40",
+   "v70",
+   "other",
+   "xc_reihe",
+   "v50",
+   "850",
+   "c_reihe",
+   "s60",
+   "unknown",
+   "v60"
+  ],
+  "mitsubishi": [
+   "colt",
+   "other",
+   "carisma",
+   "galant",
+   "lancer",
+   "pajero",
+   "outlander",
+   "unknown"
+  ],
+  "sonstige_autos": [
+   "unknown"
+  ],
+  "honda": [
+   "civic",
+   "accord",
+   "cr_reihe",
+   "other",
+   "jazz",
+   "unknown"
+  ],
+  "kia": [
+   "other",
+   "picanto",
+   "sorento",
+   "rio",
+   "carnival",
+   "sportage",
+   "ceed",
+   "unknown"
+  ],
+  "suzuki": [
+   "other",
+   "swift",
+   "grand",
+   "jimny",
+   "unknown"
+  ],
+  "alfa_romeo": [
+   "156",
+   "147",
+   "other",
+   "159",
+   "spider",
+   "unknown",
+   "145"
+  ],
+  "chevrolet": [
+   "other",
+   "matiz",
+   "captiva",
+   "spark",
+   "aveo",
+   "unknown"
+  ],
+  "chrysler": [
+   "other",
+   "voyager",
+   "ptcruiser",
+   "300c",
+   "grand",
+   "unknown",
+   "crossfire"
+  ],
+  "dacia": [
+   "logan",
+   "sandero",
+   "duster",
+   "lodgy",
+   "other",
+   "unknown"
+  ],
+  "daihatsu": [
+   "cuore",
+   "sirion",
+   "other",
+   "move",
+   "terios",
+   "unknown",
+   "charade",
+   "materia"
+  ],
+  "subaru": [
+   "impreza",
+   "legacy",
+   "justy",
+   "forester",
+   "other",
+   "unknown"
+  ],
+  "porsche": [
+   "cayenne",
+   "boxster",
+   "other",
+   "911",
+   "unknown"
+  ],
+  "jeep": [
+   "grand",
+   "cherokee",
+   "other",
+   "wrangler",
+   "unknown"
+  ],
+  "land_rover": [
+   "freelander",
+   "discovery",
+   "defender",
+   "range_rover",
+   "range_rover_sport",
+   "other",
+   "unknown",
+   "serie_2",
+   "serie_3",
+   "range_rover_evoque",
+   "serie_1"
+  ],
+  "saab": [
+   "other",
+   "900",
+   "9000",
+   "unknown"
+  ],
+  "daewoo": [
+   "matiz",
+   "kalos",
+   "other",
+   "lanos",
+   "nubira",
+   "unknown"
+  ],
+  "jaguar": [
+   "other",
+   "x_type",
+   "s_type",
+   "unknown"
+  ],
+  "trabant": [
+   "601",
+   "unknown",
+   "other"
+  ],
+  "rover": [
+   "other",
+   "unknown",
+   "rangerover",
+   "discovery",
+   "freelander",
+   "defender"
+  ],
+  "lancia": [
+   "ypsilon",
+   "other",
+   "lybra",
+   "delta",
+   "musa",
+   "unknown",
+   "kappa",
+   "elefantino"
+  ],
+  "lada": [
+   "niva",
+   "other",
+   "unknown",
+   "samara",
+   "kalina"
+  ]
+ },
+ "defaults": {
+  "alfa_romeo|145": {
+   "ads": 38,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 103,
+   "year": 1999
+  },
+  "alfa_romeo|147": {
+   "ads": 487,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 120,
+   "year": 2003
+  },
+  "alfa_romeo|156": {
+   "ads": 545,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2001
+  },
+  "alfa_romeo|159": {
+   "ads": 197,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 170,
+   "year": 2007
+  },
+  "alfa_romeo|other": {
+   "ads": 481,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2005
+  },
+  "alfa_romeo|spider": {
+   "ads": 179,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 1997
+  },
+  "alfa_romeo|unknown": {
+   "ads": 89,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2002
+  },
+  "audi|100": {
+   "ads": 371,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 133,
+   "year": 1991
+  },
+  "audi|200": {
+   "ads": 16,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 182,
+   "year": 1988
+  },
+  "audi|80": {
+   "ads": 1389,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 101,
+   "year": 1993
+  },
+  "audi|90": {
+   "ads": 84,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 1990
+  },
+  "audi|a1": {
+   "ads": 559,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2012
+  },
+  "audi|a2": {
+   "ads": 332,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2002
+  },
+  "audi|a3": {
+   "ads": 5287,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2005
+  },
+  "audi|a4": {
+   "ads": 8977,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 143,
+   "year": 2003
+  },
+  "audi|a5": {
+   "ads": 506,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 190,
+   "year": 2009
+  },
+  "audi|a6": {
+   "ads": 5035,
+   "vehicle_type": "wagon",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 179,
+   "year": 2004
+  },
+  "audi|a8": {
+   "ads": 482,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 275,
+   "year": 2004
+  },
+  "audi|other": {
+   "ads": 979,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 220,
+   "year": 2002
+  },
+  "audi|q3": {
+   "ads": 13,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 140,
+   "year": 2012
+  },
+  "audi|q5": {
+   "ads": 87,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 179,
+   "year": 2010
+  },
+  "audi|q7": {
+   "ads": 184,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 233,
+   "year": 2007
+  },
+  "audi|tt": {
+   "ads": 993,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 200,
+   "year": 2003
+  },
+  "audi|unknown": {
+   "ads": 834,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2000
+  },
+  "bmw|1er": {
+   "ads": 3232,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 143,
+   "year": 2008
+  },
+  "bmw|3er": {
+   "ads": 17717,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2001
+  },
+  "bmw|5er": {
+   "ads": 7146,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 184,
+   "year": 2003
+  },
+  "bmw|6er": {
+   "ads": 139,
+   "vehicle_type": "coupe",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 333,
+   "year": 2004
+  },
+  "bmw|7er": {
+   "ads": 895,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 245,
+   "year": 2000
+  },
+  "bmw|i3": {
+   "ads": 7,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 2001
+  },
+  "bmw|m_reihe": {
+   "ads": 113,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 343,
+   "year": 2001
+  },
+  "bmw|other": {
+   "ads": 176,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 140,
+   "year": 1993
+  },
+  "bmw|unknown": {
+   "ads": 1298,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2000
+  },
+  "bmw|x_reihe": {
+   "ads": 1483,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 204,
+   "year": 2006
+  },
+  "bmw|z_reihe": {
+   "ads": 678,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 170,
+   "year": 2003
+  },
+  "chevrolet|aveo": {
+   "ads": 104,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 85,
+   "year": 2009
+  },
+  "chevrolet|captiva": {
+   "ads": 154,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 150,
+   "year": 2008
+  },
+  "chevrolet|matiz": {
+   "ads": 256,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 53,
+   "year": 2007
+  },
+  "chevrolet|other": {
+   "ads": 871,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 160,
+   "year": 2002
+  },
+  "chevrolet|spark": {
+   "ads": 115,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 68,
+   "year": 2011
+  },
+  "chevrolet|unknown": {
+   "ads": 79,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 140,
+   "year": 2005
+  },
+  "chrysler|300c": {
+   "ads": 130,
+   "vehicle_type": "wagon",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 218,
+   "year": 2006
+  },
+  "chrysler|crossfire": {
+   "ads": 58,
+   "vehicle_type": "coupe",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 218,
+   "year": 2005
+  },
+  "chrysler|grand": {
+   "ads": 108,
+   "vehicle_type": "bus",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 150,
+   "year": 2002
+  },
+  "chrysler|other": {
+   "ads": 345,
+   "vehicle_type": "convertible",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 163,
+   "year": 2000
+  },
+  "chrysler|ptcruiser": {
+   "ads": 266,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 141,
+   "year": 2003
+  },
+  "chrysler|unknown": {
+   "ads": 64,
+   "vehicle_type": "bus",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2000
+  },
+  "chrysler|voyager": {
+   "ads": 285,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2000
+  },
+  "citroen|berlingo": {
+   "ads": 723,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2005
+  },
+  "citroen|c1": {
+   "ads": 364,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 68,
+   "year": 2008
+  },
+  "citroen|c2": {
+   "ads": 344,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 68,
+   "year": 2005
+  },
+  "citroen|c3": {
+   "ads": 468,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 73,
+   "year": 2006
+  },
+  "citroen|c4": {
+   "ads": 409,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 109,
+   "year": 2008
+  },
+  "citroen|c5": {
+   "ads": 436,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 136,
+   "year": 2005
+  },
+  "citroen|other": {
+   "ads": 1611,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 101,
+   "year": 2001
+  },
+  "citroen|unknown": {
+   "ads": 170,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2002
+  },
+  "dacia|duster": {
+   "ads": 192,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 105,
+   "year": 2011
+  },
+  "dacia|lodgy": {
+   "ads": 33,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 107,
+   "year": 2013
+  },
+  "dacia|logan": {
+   "ads": 298,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 84,
+   "year": 2008
+  },
+  "dacia|other": {
+   "ads": 21,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 85,
+   "year": 2013
+  },
+  "dacia|sandero": {
+   "ads": 264,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2009
+  },
+  "dacia|unknown": {
+   "ads": 17,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 85,
+   "year": 2012
+  },
+  "daewoo|kalos": {
+   "ads": 84,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 83,
+   "year": 2003
+  },
+  "daewoo|lanos": {
+   "ads": 68,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2000
+  },
+  "daewoo|matiz": {
+   "ads": 143,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 52,
+   "year": 2003
+  },
+  "daewoo|nubira": {
+   "ads": 57,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 122,
+   "year": 2000
+  },
+  "daewoo|other": {
+   "ads": 79,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 121,
+   "year": 2003
+  },
+  "daewoo|unknown": {
+   "ads": 36,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 103,
+   "year": 2001
+  },
+  "daihatsu|charade": {
+   "ads": 25,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 84,
+   "year": 1995
+  },
+  "daihatsu|cuore": {
+   "ads": 322,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 57,
+   "year": 2002
+  },
+  "daihatsu|materia": {
+   "ads": 18,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 103,
+   "year": 2007
+  },
+  "daihatsu|move": {
+   "ads": 43,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 52,
+   "year": 1999
+  },
+  "daihatsu|other": {
+   "ads": 95,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 87,
+   "year": 2001
+  },
+  "daihatsu|sirion": {
+   "ads": 125,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 87,
+   "year": 2005
+  },
+  "daihatsu|terios": {
+   "ads": 34,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 105,
+   "year": 2006
+  },
+  "daihatsu|unknown": {
+   "ads": 27,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2002
+  },
+  "fiat|500": {
+   "ads": 842,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 69,
+   "year": 2010
+  },
+  "fiat|bravo": {
+   "ads": 260,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 105,
+   "year": 2007
+  },
+  "fiat|croma": {
+   "ads": 40,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 150,
+   "year": 2006
+  },
+  "fiat|doblo": {
+   "ads": 278,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 90,
+   "year": 2006
+  },
+  "fiat|ducato": {
+   "ads": 382,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 120,
+   "year": 2003
+  },
+  "fiat|other": {
+   "ads": 1623,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 92,
+   "year": 2000
+  },
+  "fiat|panda": {
+   "ads": 601,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2008
+  },
+  "fiat|punto": {
+   "ads": 2804,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2002
+  },
+  "fiat|seicento": {
+   "ads": 580,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 54,
+   "year": 2000
+  },
+  "fiat|stilo": {
+   "ads": 510,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 103,
+   "year": 2003
+  },
+  "fiat|unknown": {
+   "ads": 367,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2000
+  },
+  "ford|b_max": {
+   "ads": 25,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 97,
+   "year": 2013
+  },
+  "ford|c_max": {
+   "ads": 609,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 116,
+   "year": 2006
+  },
+  "ford|escort": {
+   "ads": 742,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 1996
+  },
+  "ford|fiesta": {
+   "ads": 5052,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 69,
+   "year": 2003
+  },
+  "ford|focus": {
+   "ads": 5162,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 109,
+   "year": 2004
+  },
+  "ford|fusion": {
+   "ads": 270,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 80,
+   "year": 2005
+  },
+  "ford|galaxy": {
+   "ads": 1004,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 131,
+   "year": 2002
+  },
+  "ford|ka": {
+   "ads": 2309,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2002
+  },
+  "ford|kuga": {
+   "ads": 289,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 140,
+   "year": 2010
+  },
+  "ford|mondeo": {
+   "ads": 3200,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 131,
+   "year": 2002
+  },
+  "ford|mustang": {
+   "ads": 153,
+   "vehicle_type": "coupe",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 213,
+   "year": 2001
+  },
+  "ford|other": {
+   "ads": 1284,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 1998
+  },
+  "ford|s_max": {
+   "ads": 393,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 140,
+   "year": 2008
+  },
+  "ford|transit": {
+   "ads": 665,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 90,
+   "year": 2005
+  },
+  "ford|unknown": {
+   "ads": 727,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 100,
+   "year": 2000
+  },
+  "honda|accord": {
+   "ads": 318,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2003
+  },
+  "honda|civic": {
+   "ads": 1134,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 1999
+  },
+  "honda|cr_reihe": {
+   "ads": 311,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 140,
+   "year": 2000
+  },
+  "honda|jazz": {
+   "ads": 275,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 83,
+   "year": 2006
+  },
+  "honda|other": {
+   "ads": 289,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2000
+  },
+  "honda|unknown": {
+   "ads": 110,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 97,
+   "year": 1999
+  },
+  "hyundai|getz": {
+   "ads": 367,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 67,
+   "year": 2005
+  },
+  "hyundai|i_reihe": {
+   "ads": 1152,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 99,
+   "year": 2011
+  },
+  "hyundai|other": {
+   "ads": 1052,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 110,
+   "year": 2003
+  },
+  "hyundai|santa": {
+   "ads": 286,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 147,
+   "year": 2005
+  },
+  "hyundai|tucson": {
+   "ads": 211,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 141,
+   "year": 2007
+  },
+  "hyundai|unknown": {
+   "ads": 152,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 98,
+   "year": 2003
+  },
+  "jaguar|other": {
+   "ads": 179,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 238,
+   "year": 1999
+  },
+  "jaguar|s_type": {
+   "ads": 119,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 238,
+   "year": 2001
+  },
+  "jaguar|unknown": {
+   "ads": 10,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 256,
+   "year": 1999
+  },
+  "jaguar|x_type": {
+   "ads": 158,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 185,
+   "year": 2003
+  },
+  "jeep|cherokee": {
+   "ads": 140,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 174,
+   "year": 2000
+  },
+  "jeep|grand": {
+   "ads": 220,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 212,
+   "year": 2001
+  },
+  "jeep|other": {
+   "ads": 128,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 163,
+   "year": 2007
+  },
+  "jeep|unknown": {
+   "ads": 18,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 174,
+   "year": 1997
+  },
+  "jeep|wrangler": {
+   "ads": 95,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 177,
+   "year": 1996
+  },
+  "kia|carnival": {
+   "ads": 240,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 144,
+   "year": 2004
+  },
+  "kia|ceed": {
+   "ads": 231,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 119,
+   "year": 2009
+  },
+  "kia|other": {
+   "ads": 443,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2004
+  },
+  "kia|picanto": {
+   "ads": 329,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 65,
+   "year": 2007
+  },
+  "kia|rio": {
+   "ads": 307,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 97,
+   "year": 2005
+  },
+  "kia|sorento": {
+   "ads": 316,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 140,
+   "year": 2006
+  },
+  "kia|sportage": {
+   "ads": 232,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 2010
+  },
+  "kia|unknown": {
+   "ads": 87,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 113,
+   "year": 2004
+  },
+  "lada|kalina": {
+   "ads": 5,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 84,
+   "year": 2008
+  },
+  "lada|niva": {
+   "ads": 114,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 82,
+   "year": 2008
+  },
+  "lada|other": {
+   "ads": 54,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 1987
+  },
+  "lada|samara": {
+   "ads": 9,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 70,
+   "year": 1997
+  },
+  "lada|unknown": {
+   "ads": 11,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 81,
+   "year": 2003
+  },
+  "lancia|delta": {
+   "ads": 31,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 120,
+   "year": 1998
+  },
+  "lancia|elefantino": {
+   "ads": 7,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 1999
+  },
+  "lancia|kappa": {
+   "ads": 14,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 155,
+   "year": 1998
+  },
+  "lancia|lybra": {
+   "ads": 47,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 146,
+   "year": 2000
+  },
+  "lancia|musa": {
+   "ads": 21,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 95,
+   "year": 2005
+  },
+  "lancia|other": {
+   "ads": 91,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 1999
+  },
+  "lancia|unknown": {
+   "ads": 20,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 72,
+   "year": 2000
+  },
+  "lancia|ypsilon": {
+   "ads": 166,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2000
+  },
+  "land_rover|defender": {
+   "ads": 70,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 122,
+   "year": 2000
+  },
+  "land_rover|discovery": {
+   "ads": 71,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 190,
+   "year": 2005
+  },
+  "land_rover|freelander": {
+   "ads": 197,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 120,
+   "year": 2004
+  },
+  "land_rover|other": {
+   "ads": 18,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 69,
+   "year": 1978
+  },
+  "land_rover|range_rover": {
+   "ads": 70,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 210,
+   "year": 1999
+  },
+  "land_rover|range_rover_evoque": {
+   "ads": 1,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 296,
+   "year": 2005
+  },
+  "land_rover|range_rover_sport": {
+   "ads": 53,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 190,
+   "year": 2007
+  },
+  "land_rover|serie_1": {
+   "ads": 1,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": null,
+   "year": 1978
+  },
+  "land_rover|serie_2": {
+   "ads": 7,
+   "vehicle_type": "other",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 70,
+   "year": 1970
+  },
+  "land_rover|serie_3": {
+   "ads": 3,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 69,
+   "year": 1975
+  },
+  "land_rover|unknown": {
+   "ads": 11,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 115,
+   "year": 2000
+  },
+  "mazda|1_reihe": {
+   "ads": 84,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 71,
+   "year": 1996
+  },
+  "mazda|3_reihe": {
+   "ads": 1119,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 98,
+   "year": 2001
+  },
+  "mazda|5_reihe": {
+   "ads": 307,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 143,
+   "year": 2007
+  },
+  "mazda|6_reihe": {
+   "ads": 1167,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 2003
+  },
+  "mazda|cx_reihe": {
+   "ads": 63,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 173,
+   "year": 2010
+  },
+  "mazda|mx_reihe": {
+   "ads": 948,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 115,
+   "year": 2001
+  },
+  "mazda|other": {
+   "ads": 888,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 101,
+   "year": 2002
+  },
+  "mazda|rx_reihe": {
+   "ads": 128,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 192,
+   "year": 2004
+  },
+  "mazda|unknown": {
+   "ads": 243,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 98,
+   "year": 2000
+  },
+  "mercedes_benz|a_klasse": {
+   "ads": 3580,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 95,
+   "year": 2002
+  },
+  "mercedes_benz|b_klasse": {
+   "ads": 776,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 116,
+   "year": 2008
+  },
+  "mercedes_benz|c_klasse": {
+   "ads": 7597,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 143,
+   "year": 2002
+  },
+  "mercedes_benz|cl": {
+   "ads": 207,
+   "vehicle_type": "coupe",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 306,
+   "year": 2002
+  },
+  "mercedes_benz|clk": {
+   "ads": 1652,
+   "vehicle_type": "coupe",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 193,
+   "year": 2001
+  },
+  "mercedes_benz|e_klasse": {
+   "ads": 6205,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 170,
+   "year": 2002
+  },
+  "mercedes_benz|g_klasse": {
+   "ads": 87,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 120,
+   "year": 1991
+  },
+  "mercedes_benz|gl": {
+   "ads": 11,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 224,
+   "year": 2007
+  },
+  "mercedes_benz|glk": {
+   "ads": 61,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 170,
+   "year": 2009
+  },
+  "mercedes_benz|m_klasse": {
+   "ads": 887,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 218,
+   "year": 2004
+  },
+  "mercedes_benz|other": {
+   "ads": 2742,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 1992
+  },
+  "mercedes_benz|s_klasse": {
+   "ads": 800,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 235,
+   "year": 2000
+  },
+  "mercedes_benz|sl": {
+   "ads": 373,
+   "vehicle_type": "convertible",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 231,
+   "year": 1995
+  },
+  "mercedes_benz|slk": {
+   "ads": 1160,
+   "vehicle_type": "convertible",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 163,
+   "year": 2002
+  },
+  "mercedes_benz|sprinter": {
+   "ads": 670,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 122,
+   "year": 2004
+  },
+  "mercedes_benz|unknown": {
+   "ads": 862,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 143,
+   "year": 2000
+  },
+  "mercedes_benz|v_klasse": {
+   "ads": 137,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 122,
+   "year": 2000
+  },
+  "mercedes_benz|viano": {
+   "ads": 227,
+   "vehicle_type": "bus",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 150,
+   "year": 2007
+  },
+  "mercedes_benz|vito": {
+   "ads": 800,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 116,
+   "year": 2005
+  },
+  "mini|clubman": {
+   "ads": 184,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 122,
+   "year": 2009
+  },
+  "mini|cooper": {
+   "ads": 1805,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 120,
+   "year": 2007
+  },
+  "mini|one": {
+   "ads": 819,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2007
+  },
+  "mini|other": {
+   "ads": 83,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 63,
+   "year": 1996
+  },
+  "mini|unknown": {
+   "ads": 43,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 116,
+   "year": 2006
+  },
+  "mitsubishi|carisma": {
+   "ads": 363,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 122,
+   "year": 1999
+  },
+  "mitsubishi|colt": {
+   "ads": 760,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 82,
+   "year": 2005
+  },
+  "mitsubishi|galant": {
+   "ads": 223,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 1999
+  },
+  "mitsubishi|lancer": {
+   "ads": 199,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 117,
+   "year": 2004
+  },
+  "mitsubishi|other": {
+   "ads": 696,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 120,
+   "year": 2001
+  },
+  "mitsubishi|outlander": {
+   "ads": 114,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 156,
+   "year": 2007
+  },
+  "mitsubishi|pajero": {
+   "ads": 193,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 160,
+   "year": 2001
+  },
+  "mitsubishi|unknown": {
+   "ads": 112,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 107,
+   "year": 2000
+  },
+  "nissan|almera": {
+   "ads": 499,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2001
+  },
+  "nissan|juke": {
+   "ads": 91,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 117,
+   "year": 2012
+  },
+  "nissan|micra": {
+   "ads": 1532,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2001
+  },
+  "nissan|navara": {
+   "ads": 87,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 171,
+   "year": 2006
+  },
+  "nissan|note": {
+   "ads": 116,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 88,
+   "year": 2008
+  },
+  "nissan|other": {
+   "ads": 653,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 120,
+   "year": 2001
+  },
+  "nissan|primera": {
+   "ads": 538,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 116,
+   "year": 2001
+  },
+  "nissan|qashqai": {
+   "ads": 505,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 141,
+   "year": 2010
+  },
+  "nissan|unknown": {
+   "ads": 154,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 105,
+   "year": 2000
+  },
+  "nissan|x_trail": {
+   "ads": 192,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 136,
+   "year": 2005
+  },
+  "opel|agila": {
+   "ads": 378,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 68,
+   "year": 2002
+  },
+  "opel|antara": {
+   "ads": 97,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 150,
+   "year": 2007
+  },
+  "opel|astra": {
+   "ads": 9347,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 101,
+   "year": 2001
+  },
+  "opel|calibra": {
+   "ads": 171,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 127,
+   "year": 1994
+  },
+  "opel|combo": {
+   "ads": 358,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 75,
+   "year": 2005
+  },
+  "opel|corsa": {
+   "ads": 10636,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2001
+  },
+  "opel|insignia": {
+   "ads": 583,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 160,
+   "year": 2010
+  },
+  "opel|kadett": {
+   "ads": 294,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 1987
+  },
+  "opel|meriva": {
+   "ads": 912,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 101,
+   "year": 2006
+  },
+  "opel|omega": {
+   "ads": 1220,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 144,
+   "year": 1999
+  },
+  "opel|other": {
+   "ads": 1007,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 116,
+   "year": 1999
+  },
+  "opel|signum": {
+   "ads": 433,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 155,
+   "year": 2004
+  },
+  "opel|tigra": {
+   "ads": 671,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2004
+  },
+  "opel|unknown": {
+   "ads": 1310,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2000
+  },
+  "opel|vectra": {
+   "ads": 3675,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 116,
+   "year": 2000
+  },
+  "opel|vivaro": {
+   "ads": 269,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 114,
+   "year": 2006
+  },
+  "opel|zafira": {
+   "ads": 2606,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2004
+  },
+  "peugeot|1_reihe": {
+   "ads": 1052,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2001
+  },
+  "peugeot|2_reihe": {
+   "ads": 4378,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2004
+  },
+  "peugeot|3_reihe": {
+   "ads": 1950,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 109,
+   "year": 2004
+  },
+  "peugeot|4_reihe": {
+   "ads": 574,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 136,
+   "year": 2004
+  },
+  "peugeot|5_reihe": {
+   "ads": 110,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 150,
+   "year": 2011
+  },
+  "peugeot|other": {
+   "ads": 1043,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 109,
+   "year": 2004
+  },
+  "peugeot|unknown": {
+   "ads": 649,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 2002
+  },
+  "porsche|911": {
+   "ads": 62,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 300,
+   "year": 1999
+  },
+  "porsche|boxster": {
+   "ads": 209,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 220,
+   "year": 2001
+  },
+  "porsche|cayenne": {
+   "ads": 214,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 340,
+   "year": 2005
+  },
+  "porsche|other": {
+   "ads": 163,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 163,
+   "year": 1984
+  },
+  "porsche|unknown": {
+   "ads": 19,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 190,
+   "year": 1989
+  },
+  "renault|clio": {
+   "ads": 3065,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2002
+  },
+  "renault|espace": {
+   "ads": 505,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 140,
+   "year": 2002
+  },
+  "renault|kangoo": {
+   "ads": 801,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2002
+  },
+  "renault|laguna": {
+   "ads": 1203,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 120,
+   "year": 2002
+  },
+  "renault|megane": {
+   "ads": 2516,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 110,
+   "year": 2003
+  },
+  "renault|modus": {
+   "ads": 281,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2005
+  },
+  "renault|other": {
+   "ads": 882,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 114,
+   "year": 2005
+  },
+  "renault|r19": {
+   "ads": 101,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 88,
+   "year": 1994
+  },
+  "renault|scenic": {
+   "ads": 1214,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 107,
+   "year": 2002
+  },
+  "renault|twingo": {
+   "ads": 4165,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 58,
+   "year": 2001
+  },
+  "renault|unknown": {
+   "ads": 555,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2000
+  },
+  "rover|defender": {
+   "ads": 1,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 1997
+  },
+  "rover|discovery": {
+   "ads": 2,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 116,
+   "year": 1995
+  },
+  "rover|freelander": {
+   "ads": 2,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 177,
+   "year": 1999
+  },
+  "rover|other": {
+   "ads": 340,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 111,
+   "year": 1999
+  },
+  "rover|rangerover": {
+   "ads": 3,
+   "vehicle_type": "other",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 146,
+   "year": 1998
+  },
+  "rover|unknown": {
+   "ads": 55,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 103,
+   "year": 2000
+  },
+  "saab|900": {
+   "ads": 105,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 145,
+   "year": 1995
+  },
+  "saab|9000": {
+   "ads": 23,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 170,
+   "year": 1996
+  },
+  "saab|other": {
+   "ads": 336,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 154,
+   "year": 2001
+  },
+  "saab|unknown": {
+   "ads": 13,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 1999
+  },
+  "seat|alhambra": {
+   "ads": 318,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 116,
+   "year": 2003
+  },
+  "seat|altea": {
+   "ads": 328,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 125,
+   "year": 2007
+  },
+  "seat|arosa": {
+   "ads": 770,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 50,
+   "year": 2000
+  },
+  "seat|cordoba": {
+   "ads": 338,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 1999
+  },
+  "seat|exeo": {
+   "ads": 96,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 143,
+   "year": 2011
+  },
+  "seat|ibiza": {
+   "ads": 2334,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2005
+  },
+  "seat|leon": {
+   "ads": 1151,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2007
+  },
+  "seat|mii": {
+   "ads": 77,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2013
+  },
+  "seat|other": {
+   "ads": 83,
+   "vehicle_type": "other",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 64,
+   "year": 1997
+  },
+  "seat|toledo": {
+   "ads": 274,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 105,
+   "year": 1999
+  },
+  "seat|unknown": {
+   "ads": 168,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2000
+  },
+  "skoda|citigo": {
+   "ads": 85,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2013
+  },
+  "skoda|fabia": {
+   "ads": 1917,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2006
+  },
+  "skoda|octavia": {
+   "ads": 1977,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 116,
+   "year": 2007
+  },
+  "skoda|other": {
+   "ads": 231,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 1999
+  },
+  "skoda|roomster": {
+   "ads": 240,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 86,
+   "year": 2009
+  },
+  "skoda|superb": {
+   "ads": 341,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 160,
+   "year": 2010
+  },
+  "skoda|unknown": {
+   "ads": 97,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 88,
+   "year": 2004
+  },
+  "skoda|yeti": {
+   "ads": 165,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 110,
+   "year": 2012
+  },
+  "smart|forfour": {
+   "ads": 347,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2005
+  },
+  "smart|fortwo": {
+   "ads": 3955,
+   "vehicle_type": "small",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 61,
+   "year": 2005
+  },
+  "smart|other": {
+   "ads": 62,
+   "vehicle_type": "small",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 54,
+   "year": 2001
+  },
+  "smart|roadster": {
+   "ads": 171,
+   "vehicle_type": "convertible",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 82,
+   "year": 2004
+  },
+  "smart|unknown": {
+   "ads": 176,
+   "vehicle_type": "small",
+   "gearbox": "auto",
+   "fuel_type": "petrol",
+   "power": 55,
+   "year": 2002
+  },
+  "sonstige_autos|unknown": {
+   "ads": 2474,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 148,
+   "year": 1999
+  },
+  "subaru|forester": {
+   "ads": 118,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2001
+  },
+  "subaru|impreza": {
+   "ads": 197,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 125,
+   "year": 2000
+  },
+  "subaru|justy": {
+   "ads": 123,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 71,
+   "year": 2000
+  },
+  "subaru|legacy": {
+   "ads": 144,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 136,
+   "year": 1999
+  },
+  "subaru|other": {
+   "ads": 61,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 114,
+   "year": 2001
+  },
+  "subaru|unknown": {
+   "ads": 26,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 119,
+   "year": 1997
+  },
+  "suzuki|grand": {
+   "ads": 201,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 129,
+   "year": 2006
+  },
+  "suzuki|jimny": {
+   "ads": 201,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 86,
+   "year": 2006
+  },
+  "suzuki|other": {
+   "ads": 949,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 81,
+   "year": 2001
+  },
+  "suzuki|swift": {
+   "ads": 612,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 92,
+   "year": 2007
+  },
+  "suzuki|unknown": {
+   "ads": 102,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2000
+  },
+  "toyota|auris": {
+   "ads": 215,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 124,
+   "year": 2009
+  },
+  "toyota|avensis": {
+   "ads": 538,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 129,
+   "year": 2005
+  },
+  "toyota|aygo": {
+   "ads": 393,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 68,
+   "year": 2009
+  },
+  "toyota|corolla": {
+   "ads": 616,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 97,
+   "year": 2002
+  },
+  "toyota|other": {
+   "ads": 767,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 107,
+   "year": 1998
+  },
+  "toyota|rav": {
+   "ads": 332,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 150,
+   "year": 2005
+  },
+  "toyota|unknown": {
+   "ads": 109,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 106,
+   "year": 1999
+  },
+  "toyota|verso": {
+   "ads": 290,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 129,
+   "year": 2006
+  },
+  "toyota|yaris": {
+   "ads": 945,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 75,
+   "year": 2005
+  },
+  "trabant|601": {
+   "ads": 337,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 26,
+   "year": 1987
+  },
+  "trabant|other": {
+   "ads": 59,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 26,
+   "year": 1970
+  },
+  "trabant|unknown": {
+   "ads": 59,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 26,
+   "year": 1987
+  },
+  "volkswagen|amarok": {
+   "ads": 12,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 163,
+   "year": 2011
+  },
+  "volkswagen|beetle": {
+   "ads": 741,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 105,
+   "year": 2003
+  },
+  "volkswagen|bora": {
+   "ads": 793,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 110,
+   "year": 2000
+  },
+  "volkswagen|caddy": {
+   "ads": 1361,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 102,
+   "year": 2007
+  },
+  "volkswagen|cc": {
+   "ads": 124,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 160,
+   "year": 2010
+  },
+  "volkswagen|eos": {
+   "ads": 485,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 140,
+   "year": 2008
+  },
+  "volkswagen|fox": {
+   "ads": 675,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 54,
+   "year": 2006
+  },
+  "volkswagen|golf": {
+   "ads": 24808,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 101,
+   "year": 2001
+  },
+  "volkswagen|jetta": {
+   "ads": 316,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 102,
+   "year": 2005
+  },
+  "volkswagen|kaefer": {
+   "ads": 386,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 44,
+   "year": 1975
+  },
+  "volkswagen|lupo": {
+   "ads": 2230,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 50,
+   "year": 2000
+  },
+  "volkswagen|other": {
+   "ads": 656,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 95,
+   "year": 1995
+  },
+  "volkswagen|passat": {
+   "ads": 9045,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 131,
+   "year": 2003
+  },
+  "volkswagen|phaeton": {
+   "ads": 198,
+   "vehicle_type": "sedan",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 239,
+   "year": 2006
+  },
+  "volkswagen|polo": {
+   "ads": 11148,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2000
+  },
+  "volkswagen|scirocco": {
+   "ads": 550,
+   "vehicle_type": "coupe",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 160,
+   "year": 2009
+  },
+  "volkswagen|sharan": {
+   "ads": 1297,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 130,
+   "year": 2003
+  },
+  "volkswagen|tiguan": {
+   "ads": 603,
+   "vehicle_type": "suv",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 140,
+   "year": 2010
+  },
+  "volkswagen|touareg": {
+   "ads": 527,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 224,
+   "year": 2006
+  },
+  "volkswagen|touran": {
+   "ads": 3029,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 136,
+   "year": 2006
+  },
+  "volkswagen|transporter": {
+   "ads": 4303,
+   "vehicle_type": "bus",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 102,
+   "year": 1999
+  },
+  "volkswagen|unknown": {
+   "ads": 2408,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 90,
+   "year": 1999
+  },
+  "volkswagen|up": {
+   "ads": 316,
+   "vehicle_type": "small",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 60,
+   "year": 2013
+  },
+  "volvo|850": {
+   "ads": 189,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 144,
+   "year": 1995
+  },
+  "volvo|c_reihe": {
+   "ads": 181,
+   "vehicle_type": "convertible",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 145,
+   "year": 2007
+  },
+  "volvo|other": {
+   "ads": 527,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 131,
+   "year": 1996
+  },
+  "volvo|s60": {
+   "ads": 135,
+   "vehicle_type": "sedan",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 163,
+   "year": 2004
+  },
+  "volvo|unknown": {
+   "ads": 76,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 131,
+   "year": 1998
+  },
+  "volvo|v40": {
+   "ads": 676,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 116,
+   "year": 1999
+  },
+  "volvo|v50": {
+   "ads": 232,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 136,
+   "year": 2006
+  },
+  "volvo|v60": {
+   "ads": 40,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "diesel",
+   "power": 163,
+   "year": 2011
+  },
+  "volvo|v70": {
+   "ads": 587,
+   "vehicle_type": "wagon",
+   "gearbox": "manual",
+   "fuel_type": "petrol",
+   "power": 163,
+   "year": 2001
+  },
+  "volvo|xc_reihe": {
+   "ads": 239,
+   "vehicle_type": "suv",
+   "gearbox": "auto",
+   "fuel_type": "diesel",
+   "power": 185,
+   "year": 2007
+  }
+ }
+}
